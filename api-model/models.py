@@ -1,5 +1,6 @@
-from sqlalchemy import DATE, Column, String, Boolean, Integer, ForeignKey, VARCHAR, DECIMAL
+from sqlalchemy import DateTime, Column, String, Boolean, Integer, ForeignKey, VARCHAR, DECIMAL, Constraint
 from sqlalchemy.orm import relationship
+from datetime import datetime
 
 from .database import Base
 
@@ -30,8 +31,9 @@ class Fee(Base):
     student_name = Column(VARCHAR(50))
     amount = Column(DECIMAL(10, 2))
     payment_method = Column(VARCHAR(100))
-    payment_date = Column(DATE)
-    school_id = Column(Integer, ForeignKey("schools.school_id"))
+    payment_date = Column(DateTime, default=datetime.now, nullable=False)
+    payment_reason = Column(VARCHAR(50))
+    school_id = Column(Integer, ForeignKey("schools.school_id"), default=1, nullable=False)
 
     school = relationship("School", back_populates="fee_transactions")
 

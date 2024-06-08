@@ -1,6 +1,6 @@
 from pydantic import BaseModel, EmailStr, condecimal
 from typing import Optional, List
-from datetime import date
+from datetime import date, datetime
 
 class SchoolBase(BaseModel):
     school_name: str
@@ -21,21 +21,38 @@ class School(SchoolBase):
 class Feebase(BaseModel):
     transaction_id: int
     student_id: int
+    student_name: str
+    payment_method: str
+    payment_date: datetime
+    amount: int
+    payment_reason: str
+    school_id:int
 
+   
 
 
 class FeeCreate(BaseModel):
     student_id: int
+    school_id: int
     student_name: str
     payment_method: str
+    payment_reason: str
     amount: int
+    payment_date: datetime
 
 
-class Fee(BaseModel): 
+    
+
+
+class Fee(Feebase):
     pass
 
-    class Config:
-        from_attributes = True
+   
+
+ 
+
+class Config:
+    from_attributes = True
 
 
    
