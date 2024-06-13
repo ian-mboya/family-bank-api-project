@@ -60,7 +60,18 @@ We have covered making POST requests in our API.
 
 <p>This is the response with the student's entire transaction history</p>
 
-![Screenshot 2024-06-13 160304](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/28203c04-cd77-4c98-8236-c05015ae86f0)
+![image](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/090f5e3d-0bcf-4657-a2e0-0e9a9f01afbb)
+
+<p>To get the entire history for all students we will just enter the URL "http://127.0.0.1:8000/statements/". But here is how we do it in the UI</p>
+
+![GET statements all](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/5b41486e-ba65-4c22-90b1-6763864521e8)
+
+<p>Response</p>
+
+![GET statements all response](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/61229671-beac-4d96-a0a2-651895014104)
+
+
+We have successfully demonstrated that our API is working
 
 
 
