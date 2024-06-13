@@ -21,7 +21,7 @@ As mentioned, FastAPI's SwaggerUI provides a friendly interface to API developer
 
 <p>2. These are our values that we need appended onto our database.</p>
 
-![POST success](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/cacae12f-49ca-4e2e-b6a7-1469e03ec785)
+![image](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/d09a0a1c-3f17-4f5c-ae1d-d539d927b701)
 
 
 <p>3. After pressing execute, we should see the following 200 success code showing that the data has been successfully been sent to the database </p>
