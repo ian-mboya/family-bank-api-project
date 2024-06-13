@@ -1,4 +1,4 @@
-Interacting with the API
+<h1>Interacting with the API</h1>
 <p> FastAPI offers a simplified way of interacting with APIs via SwaggerUI. This is a rich web page with features that make testing out APIs built on FastAPI much simpler.<p>
 
 <h2> Getting Started <h2>
