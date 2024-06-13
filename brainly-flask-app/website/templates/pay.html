@@ -1,0 +1,85 @@
+{% extends "home.html" %} {% block title %}Paypage{% endblock %}
+
+{% block content %}
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/paymentpage.css') }}">
+
+<body>
+    <div class="formbold-main-wrapper">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div class="formbold-form-wrapper">
+            <form method="POST">
+                <div class="formbold-input-flex">
+                    <div>
+                        <label for="firstname" class="formbold-form-label"> Name </label>
+                        <input type="text" name="name" id="name" placeholder="Jane"
+                            class="formbold-form-input" />
+                    </div>
+                    <div>
+                        <label for="student_id" class="formbold-form-label"> Student ID </label>
+                        <input type="text" name="studentid" id="studentid" placeholder="Your Id"
+                            class="formbold-form-input" />
+                    </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                    <div>
+                        <label for="amount" class="formbold-form-label"> Amount </label>
+                        <input type="number" name="amount" id="amount" placeholder="KSH 00.00"
+                            class="formbold-form-input" />
+                    </div>
+                    <div>
+                        <label for="phone" class="formbold-form-label"> Payment reason </label>
+                        <input type="text" name="payment-reason" id="payment-reason" placeholder="tuition fee......"
+                            class="formbold-form-input" />
+                    </div>
+                </div>
+
+                <div class="formbold-input-radio-wrapper">
+                    <label for="jobtitle" class="formbold-form-label"> Your Payment method </label>
+
+                    <div class="formbold-radio-flex">
+                        <div class="formbold-radio-group">
+                            <label class="formbold-radio-label">
+                                <input class="formbold-input-radio" type="radio" name="payment-method" id="mpesa">
+                                Mpesa
+                                <span class="formbold-radio-checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="formbold-radio-group">
+                            <label class="formbold-radio-label">
+                                <input class="formbold-input-radio" type="radio" name="payment-method" id="credit-card">
+                                Credit Card
+                                <span class="formbold-radio-checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="formbold-radio-group">
+                            <label class="formbold-radio-label">
+                                <input class="formbold-input-radio" type="radio" name="payment-method" id="bank-transfer">
+                                Bank Transfer
+                                <span class="formbold-radio-checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="formbold-radio-group">
+                            <label class="formbold-radio-label">
+                                <input class="formbold-input-radio" type="radio" name="payment-method" id="cheque">
+                                Cheque
+                                <span class="formbold-radio-checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="formbold-btn" type="submit">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+{% endblock %}

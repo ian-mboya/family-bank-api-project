@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
+
+<body>
+    <section>
+        <div class="hero-image">
+            <img alt="schoolyard" src="static/images/schoolyard.jpg">
+        </div>
+        <div class="hero-text">
+            <p>Welcome to BrainlyUni payments portal, to proceed click pay fee</p>
+
+        </div>
+        <div>
+            <div class="pay-button-wrapper">
+                <a class="pay-button" href="/pay">Pay Fee</a>
+            </div>
+        </div>
+    </section>
+    </section>
+</body>
+{% endblock %}

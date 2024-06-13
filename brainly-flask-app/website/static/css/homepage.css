@@ -1,0 +1,38 @@
+section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.hero-image{
+    position: relative;
+    margin-top: 2rem;
+
+
+}
+
+.hero-text{
+    position: relative;
+    font-size: 1.5rem;
+
+}
+
+
+.pay-button-wrapper{
+    position: relative;
+
+    background-color: #6A64F1;
+    /* width: -moz-fit-content;
+    width:fit-content; */
+    align-items: center;
+    width: 9rem;
+
+    padding: 1.4rem;
+}
+
+.pay-button{
+    text-decoration: none;
+    color: azure;
+
+}

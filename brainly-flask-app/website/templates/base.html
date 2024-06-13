@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}Home{% endblock %}</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/root.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/menubar.css') }}">
+
+
+
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+          <img src="assets/Logo64x64.png" alt="logo" />
+          <h1>BrainlyUni</h1>
+        </div>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="https://github.com/ian-mboya/family-bank-api-project.git">Github</a>
+          </li>
+          <li>
+            <a href="/pay">Pay Fee</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+      <div class="menubar">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="https://github.com/ian-mboya/family-bank-api-project.git">Github</a>
+          </li>
+          <li>
+            <a href="/pay">Pay Fee</a>
+          </li>
+        </ul>
+      </div>
+      <script src="{{ url_for('static', filename='javascript/menubar.js') }}"></script>
+
+
+
+    <!-- Your content goes here -->
+    {% block content %}
+    {% endblock %}
+    
+    
+</body>
+</html>

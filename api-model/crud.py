@@ -1,7 +1,7 @@
 # ///// Here I create a CRUD APP to fetch and post various parts in our database via our API ////
 from sqlalchemy.orm import Session
 
-from . import models, schemas
+import models, schemas
 
 """ #///Getting single student transaction history by id////
 def get_student_transaction(db: Session, student_id: int):
