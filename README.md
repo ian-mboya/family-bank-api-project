@@ -11,7 +11,7 @@
 <h2>1. <a href="api-model/Get-Started.md">Getting Started</a></h2>
 <h2>2. <a href="api-model/Demo.md">API demonstration</a></h2>
 <h2>3. <a href="api-model/Recommendations.md">Recommendations</a></h2>
-<h2>3. <a href="api-model/Recommendations.md">Examples</a></h2>
+<h2>3. <a href="api-model/examples">Examples</a></h2>
 
 
 <p id="description">Navigate through the project's documentation using the links above</p>
