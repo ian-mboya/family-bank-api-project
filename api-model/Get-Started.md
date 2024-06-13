@@ -52,7 +52,7 @@ you should see this in your terminal, congratulations your API server is running
 <h2> After BootUp </p>
 <p> Now that your server is up and running, head over to the specified url indicated on your terminal "http://127.0.0.1:8000"
 
-You should be able to see this on your webpage. A success message from our API
+You should be able to see this on your web browser. A success message from our API
 
 ![image](https://github.com/ian-mboya/family-bank-api-project/blob/main/assets/web%20api%20success%20message.png?raw=true)
 
