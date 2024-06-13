@@ -7,9 +7,9 @@ Interacting with the API
 <p> To use SwaggerUI just add /docs to the the url in the address bar. "http://127.0.0.1:8000/docs"</p>
 <br>
 This is what you should see in your web browser.
+  
+![image](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/0ca2d4db-0a21-4318-96f0-c39b63b4fc28)
 
-
-![image](https://github.com/ian-mboya/family-bank-api-project/blob/main/assets/API%20server%20Boot%20Success.png?raw=true)
 
 As mentioned, FastAPI's SwaggerUI provides a friendly interface to API developers. As we can see, it is able to identify our API endpoints and Schema. 
 
@@ -24,11 +24,15 @@ As mentioned, FastAPI's SwaggerUI provides a friendly interface to API developer
 ![POST success](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/cacae12f-49ca-4e2e-b6a7-1469e03ec785)
 
 
-
 <p>3. After pressing execute, we should see the following 200 success code showing that the data has been successfully been sent to the database </p>
 
 
 <p>4. Here is the updated value in our database.
+<p>Before</p>
+![Database unapdated](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/60efec03-45cd-4250-9b1c-d5b6fdbc7004)
+
+<p>After</p>
+![database updated](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/57b5d880-c986-4bc7-88a1-ac1c7b1c2870)
 
 
 We have covered making POST requests in our API.
