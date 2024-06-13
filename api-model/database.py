@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv('.env')
 
-# ///CREAYING DATABASE URL FOR SQLALchemy///
+# ///CREATING DATABASE URL FOR SQLALchemy///
 SQLALCHEMY_DATABASE_URL = os.environ["SQLALCHEMY_DATABASE_URL"]
 
 # ///CREATING SQLAlchemy Engine///

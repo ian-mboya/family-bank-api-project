@@ -22,7 +22,7 @@ def get_db():
     finally:
         db.close()
 
-
+# Root endpoint for success message on bootup
 @app.get("/")
 def hello_test():
     return{"message": "Welcome to PulswepayAPI"}
@@ -31,18 +31,19 @@ def hello_test():
 
 
 
-
+# Endpoint for making post request in paying fees
 @app.post("/fee/", response_model=schemas.Fee)
 def fee(fee_transactions: schemas.FeeCreate, db: Session = Depends(get_db)):
     return crud.create_fee_transactions(db=db, fee_transactions=fee_transactions)
 
 
-
+# Endpoint for getting all student statements
 @app.get("/statements/", response_model=list[schemas.Fee])
 def statements(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     statements = crud.get_fee_transactions(db, skip=skip, limit=limit)
     return statements
 
+# Endpoint for getting student payment history by id
 @app.get("/student/student-id/{student_id}", response_model=list[schemas.Fee])
 def user(student_id: int, db: Session = Depends(get_db)):
     db_fee_transactions = crud.get_student_by_id(db, student_id=student_id)

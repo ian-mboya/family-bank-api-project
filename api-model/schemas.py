@@ -2,6 +2,8 @@ from pydantic import BaseModel, EmailStr, condecimal
 from typing import Optional, List
 from datetime import date, datetime
 
+
+# Defining our schema 
 class SchoolBase(BaseModel):
     school_name: str
 

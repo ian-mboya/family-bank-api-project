@@ -3,9 +3,6 @@ from sqlalchemy.orm import Session
 
 import models, schemas
 
-""" #///Getting single student transaction history by id////
-def get_student_transaction(db: Session, student_id: int):
-    return db.query(models.Fee).filter(models.Fee.student_id == student_id).first() """
 
 #///Getting single student transaction history by student id
 def get_student_by_id(db: Session,  student_id: int):

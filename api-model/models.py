@@ -5,7 +5,7 @@ from datetime import datetime
 from database import Base
 
 
-
+# Defining how our database looks like
 
 class School(Base):
     __tablename__="schools"
