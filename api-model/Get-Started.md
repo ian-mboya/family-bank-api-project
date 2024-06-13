@@ -43,7 +43,7 @@ uvicorn main:app --reload
 ```
 you should see this in your terminal, congratulations your API server is running.
 
-![image](assets/API server Boot Success.png)
+![image](https://github.com/ian-mboya/family-bank-api-project/blob/main/assets/API%20server%20Boot%20Success.png?raw=true)
 
 
 
