@@ -1,6 +1,11 @@
 from pydantic import BaseModel, EmailStr, condecimal
 from typing import Optional, List
 from datetime import date, datetime
+from decimal import Decimal
+import json
+
+
+
 
 
 # Defining our schema 
@@ -48,6 +53,8 @@ class FeeCreate(BaseModel):
 
 class Fee(Feebase):
     pass
+
+
 
    
 

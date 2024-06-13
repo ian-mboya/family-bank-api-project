@@ -29,7 +29,7 @@ class Fee(Base):
     transaction_id = Column(Integer, primary_key=True)
     student_id = Column(Integer, unique=True, index=True)
     student_name = Column(VARCHAR(50))
-    amount = Column(DECIMAL(10, 2))
+    amount = Column(Integer)
     payment_method = Column(VARCHAR(100))
     payment_date = Column(DateTime, default=datetime.now, nullable=False)
     payment_reason = Column(VARCHAR(50))

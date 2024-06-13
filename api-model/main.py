@@ -1,11 +1,16 @@
 from fastapi import Depends, FastAPI, HTTPException
+from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
+import json
+
 
 import crud, models, schemas
 from database import SessionLocal, engine
 import uvicorn
 
 models.Base.metadata.create_all(bind=engine)
+
+
 
 
 app = FastAPI(
@@ -34,7 +39,13 @@ def hello_test():
 # Endpoint for making post request in paying fees
 @app.post("/fee/", response_model=schemas.Fee)
 def fee(fee_transactions: schemas.FeeCreate, db: Session = Depends(get_db)):
-    return crud.create_fee_transactions(db=db, fee_transactions=fee_transactions)
+    created_fee = crud.create_fee_transactions(db=db, fee_transactions=fee_transactions)
+    if created_fee:
+        return JSONResponse(status_code=200, content={"message": "Payment was successful", "amount": created_fee.amount}
+                            )
+    else:
+        raise HTTPException(status_code=400, detail="Payment Failed, try again")
+    
 
 
 # Endpoint for getting all student statements
