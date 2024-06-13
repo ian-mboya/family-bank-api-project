@@ -7,5 +7,7 @@
 
 <p>This is an ERD diagram representing the proposed Database Schema for Brainly University</p>
 
+![BrainlyUniversity database schema](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/605c15b4-e563-4094-8250-88567dd28d89)
+
 
 
