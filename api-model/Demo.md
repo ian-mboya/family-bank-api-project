@@ -26,6 +26,9 @@ As mentioned, FastAPI's SwaggerUI provides a friendly interface to API developer
 
 <p>3. After pressing execute, we should see the following 200 success code showing that the data has been successfully been sent to the database </p>
 
+![image](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/8b4e9463-f727-4cc0-a763-44c53322bd7a)
+
+
 
 <p>4. Here is the updated value in our database.
 <p>Before</p>
