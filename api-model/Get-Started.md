@@ -43,7 +43,7 @@ uvicorn main:app --reload
 ```
 you should see this in your terminal, congratulations your API server is running.
 
-![image](https://github.com/ian-mboya/Audio-Synthesis-with-Python/assets/68651784/20b9af7c-8540-4c8b-95e8-3656cf722192)
+![image](assets/API server Boot Success.png)
 
 
 
