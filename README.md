@@ -7,8 +7,8 @@
 
 <h1>Title Content</h1>
 <h2>1. <a href="api-model/Get-Started.md">Getting Started</a></h2>
-<h2>2. <a href="">API demonstration</a></h2>
-<h2>3. <a href="">Recommendations</a></h2>
+<h2>2. <a href="api-model/Demo.md">API demonstration</a></h2>
+<h2>3. <a href="api-model/Recommendations.md">Recommendations</a></h2>
 
 
 
