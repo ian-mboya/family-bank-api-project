@@ -29,9 +29,11 @@ As mentioned, FastAPI's SwaggerUI provides a friendly interface to API developer
 
 <p>4. Here is the updated value in our database.
 <p>Before</p>
+
 ![Database unapdated](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/60efec03-45cd-4250-9b1c-d5b6fdbc7004)
 
 <p>After</p>
+
 ![database updated](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/57b5d880-c986-4bc7-88a1-ac1c7b1c2870)
 
 
