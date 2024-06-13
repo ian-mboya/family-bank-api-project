@@ -9,5 +9,5 @@
 
 ![BrainlyUniversity database schema](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/605c15b4-e563-4094-8250-88567dd28d89)
 
-
+I am also working on a web app simulating the API process in HTML, JS, and Python Flask. Head over to the brainly-flask-app to check its progress
 
