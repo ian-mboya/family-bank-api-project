@@ -8,7 +8,7 @@
 
 <p id="description">The API (PulsePay API) has been built in Python and FastAPI framework. FastAPI framework allows for fast development of APIS and its ecosystem allows for concise code by developers making it a favourable framework when developing scalable APIs for different use cases.</p>
 
-<p id="description">For the Database i used PostgreSQL. PostgreSQL is a powerful opensource relational database provides excellent relational mapping especially for real time applications. <a href=>Follow the official guide Postgres website to install postgres rdb locally on your machine before starting this project demo.</a> I have also provided a link to the Queries for setting up the relaions for this web app</p>
+<p id="description">For the Database i used PostgreSQL. PostgreSQL is a powerful opensource relational database provides excellent relational mapping especially for real time applications. <a href="">Follow the official guide Postgres website to install postgres rdb locally on your machine before starting this project demo.</a> I have also provided a link to the Queries for setting up the relaions for this web app</p>
 
 
 <h2>🛠️ Installation Steps:</h2>
@@ -54,7 +54,7 @@ you should see this in your terminal, congratulations your API server is running
 
 You should be able to see this on your webpage. A success message from our API
 
-![image](https://github.com/ian-mboya/family-bank-api-project/blob/main/assets/API%20server%20Boot%20Success.png?raw=true)
+![image](https://github.com/ian-mboya/family-bank-api-project/blob/main/assets/web%20api%20success%20message.png?raw=true)
 
 
 
