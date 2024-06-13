@@ -7,7 +7,12 @@ from . database import SessionLocal, engine
 models.Base.metadata.create_all(bind=engine)
 
 
-app = FastAPI()
+app = FastAPI(
+    title="Pulsepay API",
+    description="Simple REST API as a payment gateway",
+    version="v1",
+    docs_url="/docs"
+)
 
 def get_db():
     db = SessionLocal()
