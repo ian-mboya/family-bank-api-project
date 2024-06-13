@@ -17,9 +17,12 @@ As mentioned, FastAPI's SwaggerUI provides a friendly interface to API developer
 <p>1. We have our database created in Postgres. We are going to make a POST request that has the following request body that sends the particular fee details to our database.</p>
 
 
-![image](https://github.com/ian-mboya/family-bank-api-project/blob/main/assets/API%20server%20Boot%20Success.png?raw=true)
+![image](https://github.com/ian-mboya/family-bank-api-project/blob/main/assets/POST%20request%20empty.png?raw=true)
 
 <p>2. These are our values that we need appended onto our database.</p>
+
+![POST success](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/cacae12f-49ca-4e2e-b6a7-1469e03ec785)
+
 
 
 <p>3. After pressing execute, we should see the following 200 success code showing that the data has been successfully been sent to the database </p>
