@@ -43,7 +43,24 @@ We have covered making POST requests in our API.
 <h2> Making GET requests </h2>
 <p>We have two endpoints that allow us to get a single student's payment history via student id and another one that is able to query all students' payment history</p>
 
-<p> We will begin by getting a single student's payment history.</p>
+
+<p>1.  We will begin by getting a single student's payment history. Here we will enter the student's ID in the previous demo
+</p>
+
+![GET request by id 1](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/45b99d8b-d931-45ee-8c98-026289bd2c79)
+
+<p>2. Here is the response</p>
+
+![GET request 1 by id response](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/2b7d7568-9d08-4fab-873b-de52a6be2117)
+
+
+<p>3. A student may have conducted a number of transactions. We will use an example of such a student in our database</p>
+
+![GET by ID multiple](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/ca576bce-ae2e-48b4-b7b9-2b4a9af4a3a3)
+
+<p>This is the response with the student's entire transaction history</p>
+
+![Screenshot 2024-06-13 160304](https://github.com/ian-mboya/family-bank-api-project/assets/68651784/28203c04-cd77-4c98-8236-c05015ae86f0)
 
 
 
